@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-brand">KRAMMM</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <header id="home">
+        <div class="animated-bg"></div>
+        <div class="container">
+            <div class="hero">
+                <div class="hero-text">
+                    <h1>Mark Torres</h1>
+                    <h2 id="typing-text"></h2>
+                    <p>Transforming raw data into actionable insights to drive informed decisions and business growth.</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="cta-btn">View My Portfolio</a>
+                        <button class="cta-btn resume-btn">View My Resume</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/marky.jpg" alt="Professional Profile Photo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="animated-bg"></div>
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>As a dedicated Data Analyst, I specialize in extracting meaningful insights from complex datasets, enabling data-driven decision-making and problem-solving for businesses. With expertise in statistical analysis and visualization, I turn data into strategic advantages.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/marky.jpg" alt="Data Analyst Professional">
+                </div>
+            </div>
+            <div class="skills">
+                <h3>Skills & Tools</h3>
+                <div class="skill-bar">
+                    <i class="fab fa-python"></i>
+                    <span>Python</span>
+                    <div class="bar"><div class="fill" style="width: 90%;"></div></div>
+                    <span class="percentage">0%</span>
+                </div>
+                <div class="skill-bar">
+                    <i class="fas fa-database"></i>
+                    <span>SQL</span>
+                    <div class="bar"><div class="fill" style="width: 85%;"></div></div>
+                    <span class="percentage">0%</span>
+                </div>
+                <div class="skill-bar">
+                    <i class="fas fa-chart-line"></i>
+                    <span>R</span>
+                    <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+                    <span class="percentage">0%</span>
+                </div>
+                <div class="skill-bar">
+                    <i class="fas fa-file-excel"></i>
+                    <span>Excel</span>
+                    <div class="bar"><div class="fill" style="width: 95%;"></div></div>
+                    <span class="percentage">0%</span>
+                </div>
+                <div class="skill-bar">
+                    <i class="fas fa-chart-bar"></i>
+                    <span>Power BI</span>
+                    <div class="bar"><div class="fill" style="width: 88%;"></div></div>
+                    <span class="percentage">0%</span>
+                </div>
+                <div class="skill-bar">
+                    <i class="fas fa-chart-pie"></i>
+                    <span>Tableau</span>
+                    <div class="bar"><div class="fill" style="width: 82%;"></div></div>
+                    <span class="percentage">0%</span>
+                </div>
+            </div>
+            <div class="interests">
+                <h3>Interests</h3>
+                <div class="interests-grid">
+                    <div class="interest-card">
+                        <i class="fas fa-chart-area"></i>
+                        <h4>Data Visualization</h4>
+                        <p>Creating compelling visual stories from data</p>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-brain"></i>
+                        <h4>Business Intelligence</h4>
+                        <p>Turning data into strategic business insights</p>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-broom"></i>
+                        <h4>Data Cleaning</h4>
+                        <p>Ensuring data quality and accuracy</p>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-calculator"></i>
+                        <h4>Statistics</h4>
+                        <p>Applying statistical methods to data analysis</p>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <h4>Dashboards</h4>
+                        <p>Building interactive data dashboards</p>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <h4>Analytics Projects</h4>
+                        <p>End-to-end data analytics solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="animated-bg"></div>
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="tabs" role="tablist">
+                <button class="tab-btn active" data-tab="experience" role="tab" aria-selected="true" aria-controls="experience">Work Experience</button>
+                <button class="tab-btn" data-tab="projects" role="tab" aria-selected="false" aria-controls="projects">Projects</button>
+            </div>
+            <div id="experience" class="tab-content active">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Data Analyst at TechCorp</h3>
+                    <p><strong>Duration:</strong> Jan 2022 - Present</p>
+                    <p><strong>Responsibilities:</strong> Analyzed sales data to identify trends, built dashboards for executive reporting.</p>
+                    <p><strong>Impact:</strong> Improved decision-making efficiency by 25% through automated reports.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Junior Analyst at DataSolutions</h3>
+                    <p><strong>Duration:</strong> Jun 2020 - Dec 2021</p>
+                    <p><strong>Responsibilities:</strong> Cleaned datasets, performed statistical modeling, created visualizations.</p>
+                    <p><strong>Impact:</strong> Reduced data processing time by 30% with optimized queries.</p>
+                </div>
+            </div>
+            <div id="projects" class="tab-content">
+                <div class="projects-grid">
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-chart-bar"></i></div>
+                        <h3>Sales Dashboard</h3>
+                        <p>Interactive dashboard visualizing sales metrics.</p>
+                        <p><strong>Tools:</strong> Power BI, SQL</p>
+                        <p><strong>Results:</strong> Increased stakeholder engagement by 40%.</p>
+                        <a href="#" class="view-btn">View Project</a>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-users"></i></div>
+                        <h3>Customer Segmentation</h3>
+                        <p>Machine learning model for customer clustering.</p>
+                        <p><strong>Tools:</strong> Python, Tableau</p>
+                        <p><strong>Results:</strong> Boosted targeted marketing ROI by 20%.</p>
+                        <a href="#" class="view-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="animated-bg"></div>
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="your.email@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your message here..." required></textarea>
+                </div>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+            <div id="error-message" class="error-message">Please fill all required fields correctly.</div>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://facebook.com/yourprofile"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="https://github.com/yourusername"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Modal -->
+    <div id="resume-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="assets/images/resume.jpg" alt="Mark Torres Resume" class="resume-image">
+        </div>
+    </div>
+
+    <button id="back-to-top" class="back-to-top">↑</button>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
